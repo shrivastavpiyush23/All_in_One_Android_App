@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Quiz3">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="197dp"
+        android:gravity="center_horizontal"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginBottom="312dp"
+        android:background="@drawable/btn_shape_capsule2"
+        android:text="Restart!" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button49"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-88dp"
+        android:layout_marginLeft="-88dp"
+        android:layout_marginTop="285dp"
+        android:layout_toEndOf="@+id/button49"
+        android:layout_toRightOf="@+id/button49"
+        android:background="@drawable/btn_shape_capsule"
+        android:text="Quit" />
+
+</RelativeLayout>
